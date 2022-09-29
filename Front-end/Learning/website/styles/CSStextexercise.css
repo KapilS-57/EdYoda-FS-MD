@@ -1,0 +1,52 @@
+* {
+    text-transform: capitalize;
+}
+
+p {
+    font-family: Roboto;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.style-text {
+    font-size: 18px;
+    width: 350px;
+    font-weight: bold;
+    line-height: 24px;
+    margin-bottom: 5px;
+}
+
+.stats {
+    font-size: 14px;
+    color: rgb(96, 96, 96);
+    margin-bottom: 20px;
+}
+
+.about {
+    font-size: 14px;
+    color: rgb(96, 96, 96);
+    margin-bottom: 20px;
+
+}
+
+.transcript {
+    font-size: 14px;
+    color: rgb(96, 96, 96);
+    width: 250px;
+    line-height: 22px;
+    margin-bottom: 100px;
+}
+
+.shop-amazon {
+    background-color: rgb(190, 49, 49);
+    padding-top: 18px;
+    padding-bottom: 18px;
+    margin-bottom: 50px;
+    text-align: center;
+    color: white;
+    font-size: 14px;
+}
+
+.shop-link:hover {
+    text-decoration: underline;
+}

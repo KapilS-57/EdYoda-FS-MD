@@ -1,0 +1,46 @@
+Harshit (FullStack Developer 7+yrs)
+About
+Frontend- ReactJS , redux , HTML , CSS , JavaScript 
+Backend- NodeJS , Express[Connection between NodeJs and Databases] , Mongodb
+
+FullStack Developer = Frontend + Backend 
+
+
+FrontEnd -
+
+1. HTML
+2. CSS (Frameworks- BootStrap , Tailwind CSS , Bulma , Materialize)
+3. JavaScript (Frameworks - React[Single page application (Flipkart,Facebook)] , Angular[Multi page application (Amazon,Google)] , Vue)
+
+BackEnd -
+
+1. languages (Java , PHP , Python ,  Node[JavaScript] etc)
+2. Databases (SQL , MongoDb , PostgreSQL , MySQL)
+
+Responsive Web Design
+
+XML(Extensible Markup Language) 
+JSON(JavaScript Object Notation)
+
+AJAX(Asynchronous JavaScript and XML) is aclient side script which communicates through database/servers.
+
+Asynchronous and Synchronous
+
+API 
+
+NodeJS (Developing APIs)
+
+GitHub
+
+ReactJS
+
+Redux
+
+Database
+
+Mongodb
+
+
+*React Native is used to develop mobile applicattions.
+
+

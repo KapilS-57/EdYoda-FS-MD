@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Assignment-3</title>
+    <!-- <style>
+        .movies-name{
+            font-style: italic
+            fonm ;
+        }
+    </style> -->
+    <style>
+        ol {
+            counter-reset: item;
+        }
+
+        li {
+            display: block;
+        }
+
+        li:before {
+            content: counters(item, ".") ". ";
+            counter-increment: item;
+        }
+        .navi{
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+
+<body style="background-color: lightgrey;">
+    <header>
+        <h1 style="margin-top: 16px; margin-bottom: 16px;background-color: blueviolet ;text-align: center;">Movies To
+            Watch</h1>
+    </header>
+    <div style="font-style: italic;background-color: aqua ;text-align: center;">
+        <a href="#Home-data" class="navi">Home</a>
+        <a href="#About-data" class="navi">About</a>
+        <a href="#Contact-data" class="navi">Contact</a>
+        <a href="#Movies-data" class="navi">Movies</a>
+    </div>
+    <hr>
+    
+        <div>
+        <h4 id="Movies-data">Movies</h4>
+        Genre
+        <ol>
+            <li>Action
+                <ol>
+                    <li>Brothers</li>
+                    <li>Baaghi</li>
+                    <li>Pushpa</li>
+                    <li>Bahubali</li>
+                    <li>K.G.F</li>
+                </ol>
+            </li>
+            <li>Comedy
+                <ol>
+                    <li>Phir Hera Pheri</li>
+                    <li>Hungama</li>
+                    <li>DHamaal</li>
+                    <li>All the Best</li>
+                    <li>Golmaal</li>
+                </ol>
+            </li>
+            <li>Drama
+                <ol>
+                    <li>Life of Pi</li>
+                    <li>Drishyam</li>
+                    <li>Raid</li>
+                    <li>Haider</li>
+                    <li>Jab we met</li>
+                </ol>
+            </li>
+            <li>Horror
+                <ol>
+                    <li>Stree</li>
+                    <li>1920</li>
+                    <li>Bhool Bhulaiyaa</li>
+                    <li>Darna zaroori hai</li>
+                    <li>Roohi</li>
+                </ol>
+            </li>
+            <li>Sci-Fi
+                <ol>
+                    <li>Krish</li>
+                    <li>Ra.one</li>
+                    <li>ROBOT</li>
+                    <li>Kaal</li>
+                    <li>Prince</li>
+                </ol>
+            </li>
+        </ol>
+    </div>
+    <hr>
+    <div style="text-align:center">
+        <h4 id="About-data">About</h4>
+    <p>
+        A place to share and viewing trends in movies and web-series.
+
+    </p>
+    <hr>
+    </div>
+    <footer>
+        <div style="text-align:center;">
+            <h4 id="Contact-data">Contact</h4>
+            <img style="height: 20px;" src="./WhatsApp.jpeg " alt="whatapp-icon">
+            <a href="https://wa.me/918950503768?text=Hello">Whatsapp</a>
+            <a href="tel:+918950503768">
+                <img style="height: 20px;" src="./Phone.png " alt="call-icon">Mobile</a>
+            <a href="mailto:capishr57@gmail.com">
+                <img style="height: 20px;" src="./Mail.jpg " alt="gmail-icon">Email</a>
+            <a href="https://www.linkedin.com/in/kapil-sharma-5030231b7">
+                <img style="height: 20px;" src="./linkedin.png " alt="linkedin-icon">LinkedIn</a>
+        </div>
+    </footer>
+</body>
+
+</html>

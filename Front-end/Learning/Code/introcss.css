@@ -1,0 +1,13 @@
+h2{
+    color: cyan;
+}
+#style-int{
+    color: green;
+}
+#style-box-model{
+    border: solid red 10px;
+    height: 200px;
+    width: 200px;
+    
+    padding: 20px;
+}

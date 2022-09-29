@@ -1,0 +1,74 @@
+p{
+    margin-top: 0;
+}
+.font {
+    font-family: Tahoma;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.deals {
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.end {
+    font-family: Arial;
+    color: red;
+    font-style: italic;
+    margin-bottom: 50px;
+}
+
+.course-heading {
+    font-family: Verdana;
+    font-weight: bold;
+    font-size: large;
+    margin-bottom: 4px;
+}
+
+.course-about {
+    font-family: Verdana;
+    color: grey;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+.description{
+    width: 250px;
+}
+.get{
+    background-color: green;
+    border: none;
+    color: white;
+    border-radius: 8px;
+    padding: 10px;
+    font-weight: bold;
+    transition: opacity 0.15s;
+    margin-bottom: 50px;
+}
+.get:hover{
+    opacity: 0.8;
+}
+.get:active{
+    background-color: rgb(1, 92, 1);
+}
+.shopping{
+    text-align: center;
+    font-family: Arial;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.apple{
+    font-family: Arial;
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.more{
+    color: blue;
+    font-size: 15px;
+    font-family: Arial;
+    text-align: center;
+}

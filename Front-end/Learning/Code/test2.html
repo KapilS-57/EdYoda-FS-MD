@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>List</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <style>
+        ol {
+            counter-reset: item;
+        }
+
+        li {
+            display: block;
+        }
+
+        li:before {
+            content: counters(item, ".") ". ";
+            counter-increment: item;
+        }
+    </style>
+</head>
+
+<body>
+    <ol>
+        <li >Anand Singavarapu
+        <ol>
+            <li>Post Graduation (MCA)</li>
+            <li>B.Sc Computers</li>
+            <li>Intermediate (MPC)</li>
+        </ol>
+        </li>
+        <li >Mahesh Pinapolu
+        <ol>
+            <li>Post Graduation (MCA)</li>
+            <li>B.Com General</li>
+            <li>Chartered Accounts (CA)</li>
+        </ol>
+        </li>
+        <li></li>
+    </ol>
+
+</body>
+
+</html>

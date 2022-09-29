@@ -1,0 +1,178 @@
+* {
+    text-transform: capitalize;
+}
+
+button {
+    cursor: pointer;
+}
+
+.request-now {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px 10px 20px;
+    text-transform: capitalize;
+    transition: opacity 0.15s;
+}
+
+.request-now:hover {
+    opacity: 0.7;
+}
+
+.request-now:active {
+    opacity: 0.4;
+}
+
+.add-to-cart {
+    background-color: rgb(255, 216, 20);
+    color: black;
+    text-transform: capitalize;
+    padding: 10px 20px 10px 20px;
+    border-radius: 18px;
+    border: none;
+    margin-right: 10px;
+    transition: background-color 0.15s;
+}
+
+.add-to-cart:hover {
+    background-color: rgb(209, 177, 17);
+}
+
+.add-to-cart:active {
+    opacity: 0.6;
+}
+
+.sign-up {
+    background-color: rgb(46, 164, 79);
+    color: white;
+    text-transform: capitalize;
+    padding: 10px 20px 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    transition: box-shadow 0.15s;
+}
+
+.sign-up:hover {
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.15);
+}
+
+.sign-up:active {
+    opacity: 0.8;
+}
+
+.bootstrap {
+    background-color: rgb(121, 82, 179);
+    color: white;
+    padding: 10px 20px 10px 20px;
+    border: none;
+    border-radius: 3px;
+    font-weight: bold;
+    margin-right: 10px;
+    transition: background-color 0.15s;
+}
+
+.bootstrap:hover {
+    background-color: rgb(103, 70, 153);
+}
+
+.download {
+    color: rgb(108, 117, 125);
+    background-color: white;
+    padding: 9px 20px 9px 20px;
+    border-color: rgb(108, 117, 125);
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 1px;
+    font-weight: bold;
+    transition: background-color 0.15s, color 0.15s;
+}
+
+.download:hover {
+    background-color: rgb(108, 117, 125);
+    color: white;
+}
+
+.apply-on-company {
+    background-color: rgb(10, 102, 194);
+    color: white;
+    padding: 10px 20px 10px 20px;
+    border: none;
+    border-radius: 18px;
+    font-weight: bold;
+    margin-right: 10px;
+    transition: background-color 0.15s;
+}
+
+.apply-on-company:hover {
+    background-color: rgb(9, 90, 170);
+}
+
+.save {
+    color: rgb(10, 102, 194);
+    background-color: white;
+    padding: 9px 20px 9px 20px;
+    border-radius: 18px;
+    border-style: solid;
+    border-color: rgb(10, 102, 194);
+    border-width: 1px;
+    font-weight: bold;
+    transition: background-color 0.15s, border-width 0.15s padding 0.15s;
+}
+
+.save:hover {
+    background-color: rgba(10, 102, 194, 0.274);
+    border-width: 2px;
+    padding: 8px 19px 8px 19px;
+}
+
+.save:active {
+    opacity: 0.8;
+}
+
+.buy-now {
+    background-color: rgb(255, 164, 28);
+    color: black;
+    border-radius: 18px;
+    padding: 10px 20px 10px 20px;
+    border: none;
+    font-weight: bold;
+    transition: opacity 0.15s;
+}
+
+.buy-now:hover {
+    opacity: 0.8;
+
+}
+
+.buy-now:active {
+    opacity: 0.4;
+}
+
+.shoes {
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+a:hover {
+    color: orange;
+}
+
+.pagination a {
+    padding: 0px 5px 0px 5px;
+}
+
+.stretch {
+    padding: 10px 20px 10px 20px;
+    background-color: rgb(62, 184, 62);
+    color: white;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    transition: padding 0.15s;
+}
+
+.stretch:hover {
+    padding: 20px 40px 20px 40px;
+}
