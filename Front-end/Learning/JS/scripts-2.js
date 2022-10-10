@@ -27,15 +27,15 @@ console.log(firstName.toLowerCase());
 console.log(lastname.toUpperCase());
 
 console.log(lastname.charAt(3));
-console.log(lastname.charCodeAt());
-console.log(typeof (firstName));
+console.log(lastname.charCodeAt(2));
+console.log(typeof firstName);
 
 
 console.log(parseInt(90.39));//return 90
 console.log(parseFloat(90.39));// return 90.39
 console.log(Number(' '));//0
-console.log(typeof (Number('89bh')));
-console.log(Number(NaN));// number
+console.log(typeof Number('89bh')); //number
+console.log(Number(NaN));// NaN
 
 //number to string
 console.log(num.toString());// 20
